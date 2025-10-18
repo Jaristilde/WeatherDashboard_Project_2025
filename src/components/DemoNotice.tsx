@@ -5,8 +5,14 @@ import { Info, X } from 'lucide-react';
 
 export default function DemoNotice() {
   const [isVisible, setIsVisible] = useState(true);
+  
+  // Check if weather API key is available
+  const hasWeatherApiKey = process.env.NEXT_PUBLIC_WEATHER_API_KEY && 
+                          process.env.NEXT_PUBLIC_WEATHER_API_KEY !== 'your_api_key_here' &&
+                          process.env.NEXT_PUBLIC_WEATHER_API_KEY !== 'demo';
 
-  if (!isVisible) return null;
+  // Don't show the notice if API key is present
+  if (!isVisible || hasWeatherApiKey) return null;
 
   return (
     <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
