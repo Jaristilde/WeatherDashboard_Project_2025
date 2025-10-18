@@ -1,4 +1,4 @@
-# Weather Dashboard
+# WeatherDashboard_Project_2025
 
 A modern, responsive weather dashboard built with Next.js, React, and Tailwind CSS. This application displays current weather conditions and a 5-day forecast for any location worldwide.
 
@@ -27,8 +27,8 @@ The app includes demo weather data for popular cities (London, New York, Tokyo, 
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd weather-dashboard
+git clone https://github.com/Jaristilde/WeatherDashboard_Project_2025.git
+cd WeatherDashboard_Project_2025
 ```
 
 2. Install dependencies:
