@@ -27,9 +27,9 @@ export default function CurrentWeather({ weather }: CurrentWeatherProps) {
             className="w-20 h-20"
           />
         </div>
-        <h3 className="text-4xl font-bold mb-2">{current.temperature}°C</h3>
+        <h3 className="text-4xl font-bold mb-2">{current.temperature}°F</h3>
         <p className="text-lg opacity-90">{current.condition}</p>
-        <p className="text-sm opacity-75">Feels like {current.feelsLike}°C</p>
+        <p className="text-sm opacity-75">Feels like {current.feelsLike}°F</p>
       </div>
 
       {/* Weather Details */}

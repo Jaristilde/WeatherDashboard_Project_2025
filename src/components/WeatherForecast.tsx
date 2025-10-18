@@ -43,8 +43,8 @@ export default function WeatherForecast({ weather }: WeatherForecastProps) {
             </div>
             
             <div className="flex items-center space-x-2">
-              <span className="text-lg font-bold text-gray-800">{day.high}°</span>
-              <span className="text-sm text-gray-500">{day.low}°</span>
+              <span className="text-lg font-bold text-gray-800">{day.high}°F</span>
+              <span className="text-sm text-gray-500">{day.low}°F</span>
             </div>
           </div>
         ))}
