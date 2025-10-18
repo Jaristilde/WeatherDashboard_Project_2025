@@ -23,7 +23,7 @@ export default function DemoNotice() {
             Demo Mode Active
           </h3>
           <p className="text-sm text-yellow-700 mb-2">
-            You're currently viewing demo weather data for a few cities only. 
+            You&apos;re currently viewing demo weather data for a few cities only. 
             To get real-time weather data for any location worldwide (like Macon, Georgia), 
             add your WeatherAPI key to the <code className="bg-yellow-100 px-1 rounded">.env.local</code> file.
           </p>
