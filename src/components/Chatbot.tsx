@@ -203,3 +203,5 @@ export default function Chatbot({ isOpen, onToggle }: ChatbotProps) {
     </div>
   );
 }
+
+
